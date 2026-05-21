@@ -2,7 +2,7 @@
 
 This repository contains my assignment for TypeScript & OOP
 
-## 📌 Description
+## Description
 
 This project includes TypeScript and Object-Oriented Programming (OOP) practice problems and solutions. It focuses on understanding core programming concepts such as:
 
@@ -13,7 +13,7 @@ This project includes TypeScript and Object-Oriented Programming (OOP) practice 
 - Encapsulation
 - TypeScript Utility Types (Pick, Omit)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - TypeScript
 - Node.js
@@ -29,20 +29,20 @@ The repository is organized into different files based on topics and tasks. Each
    ```bash
    git clone https://github.com/SubrotoChandaShuvo/B7A1.git
 
-Move into the project folder:
+2. Move into the project folder:
 
-cd B7A1
+    cd B7A1
 
-Install dependencies (if any):
+3. Install dependencies (if any):
 
-npm install
+    npm install
 
-Run TypeScript files:
+4. Run TypeScript files:
 
-npx ts-node filename.ts
-🎯 Purpose
+    npx ts-node filename.ts
 
+## Purpose
 The purpose of this repository is to practice TypeScript fundamentals and strengthen Object-Oriented Programming concepts through hands-on coding exercises.
 
-👨‍💻 Author
+## Author
 Subroto Chanda Shuvo
