@@ -1,6 +1,5 @@
 ## How do Pick and Omit utility types prevent code duplication while creating specialized "slices" of a master interface? Discuss how this keeps your code DRY (Don't Repeat Yourself).
 
-## Introduction: 
 ## Pick:
 Pick is one of the features of the Utility type in TypeScript. It selects specific properties from an interface or a type. Basically, it is used when we want a smaller version of a big object, and it just picks those things which we want to pick. It makes our code safer and cleaner code.
 
@@ -28,10 +27,9 @@ Pick's real-life usage:
 1․ Public API response (hide password)․
 2․ Form data (only required fields)
 
-## How this keeps your code DRY (Don't Repeat Yourself)?
+## How Pick keeps your code DRY (Don't Repeat Yourself)?
 Ans: Pick helps keep your code DRY because you can make specialized subtypes of a master interface without needing to define the properties again; all the related types are kept consistent automatically․
 
-//----------------------------------------------------------------------
 
 
 ## Omit:
@@ -56,7 +54,7 @@ Now,
             email: string;
         }
 
-## How this keeps your code DRY (Don't Repeat Yourself)?
+## How Omit keeps your code DRY (Don't Repeat Yourself)?
 Ans: Omit keeps code DRY (Don't Repeat Yourself) because I don't need to duplicate the entire interface just to remove one. If the main Person interface changes later, the derived types automatically stay updated.
 
 
